@@ -6,7 +6,7 @@ In most markdown interpreters nowadays you can use the dollar sign syntax to wri
 For Example [codecogs](https://www.codecogs.com/latex/about.php) can be used for this which is an online mathjax compiler that can return an image of the formular. This can than be embedded into the markdown file.
 The problem is that you have to encode the latex string into a url-friendly format and doing this can be a lot of work if you have a lot of formulars.
 
-This simple converter written in python is meant to solve this problem: It automatically detects latex formatted formulars (marked with $$ and inline with $) and replaces them with a markdown image that points to the url of codecogs.
+This simple converter which is written in python is meant to solve this problem: It automatically detects latex formatted formulars (marked with $$ and inline with $) and replaces them with a markdown image that points to the url of codecogs.
 
 ## Requirements
 The python package `click` is required to run the code. It is installable with `pip3 install click`
