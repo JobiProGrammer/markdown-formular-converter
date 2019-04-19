@@ -1,5 +1,4 @@
 import click
-import urllib
 from urllib.parse import quote
 
 

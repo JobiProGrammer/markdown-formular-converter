@@ -8,6 +8,9 @@ The problem is that you have to encode the latex string into a url-friendly form
 
 This simple converter written in python is meant to solve this problem: It automatically detects latex formatted formulars (marked with $$ and inline with $) and replaces them with a markdown image that points to the url of codecogs.
 
+## Requirements
+The python package `click` is required to run the code. It is installable with `pip3 install click`
+
 ## Usage
 `python3 github_markdown.py -p README_with_latex.md -n README.md`
 
