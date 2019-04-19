@@ -4,6 +4,5 @@
 /venv
 /.ipynb_checkpoints
 /error_calculator/__pycache_
-github_markdown.py
 README_la.md
 .github_markdown.py.swp
